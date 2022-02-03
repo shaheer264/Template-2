@@ -1,0 +1,29 @@
+* {
+    margin: 0%;
+    padding: 1px;
+}
+.header {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.heading {
+    display: block;
+    background-color: lightgray;
+    border-bottom: none;
+    padding: 2%;
+}
+.list {
+    color: white;
+    list-style-type: none;
+    display: flex;
+    font-size: 15px;
+    padding-left: 0%; 
+    background-color: black;
+}
+.list li {
+    display: inline-block;
+    border-right: 1px solid white;
+    padding: 5px 10px;                                                                                                                                                                                                                                          
+}
+li:hover {
+    background-color: green;
+}
